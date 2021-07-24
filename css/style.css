@@ -1,0 +1,79 @@
+* {
+	margin: 0;
+	padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+	padding: 8px;
+	background-color: #0fcaeb;
+    text-align:center;
+    min-height:50px;
+}
+#titulo-logo{
+    padding: 22px 0px 0px 5px
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-image: url('../assets/the-wall.png');
+}
+
+.container {
+	width: auto;
+	margin: 50px auto;
+	text-align: center;
+    background-color: #646464;
+    border-radius: 8px;
+}
+
+.texto-opcoes{
+    padding: 15px 15px 0px 15px;
+}
+
+.menu{
+    padding: 12px 50px 25px;
+}
+
+.botao{
+    margin-top: 25px;
+	width: 85%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    font-size:large;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #0fcaeb;
+    color: #ffffff;
+}
+
+.botao:hover{
+    background-color: #ffffff;
+    color: #0fcaeb;
+}
+
+footer{
+    margin-top: auto;
+}
+
+.rodape{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#icon-rodape{
+    margin-left: 6px;
+}
+
+@media screen and (max-width: 600px){
+	.container {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+}

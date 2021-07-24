@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="./css/style.css">
+		<title>Sistema  de Cadastro</title>
+	</head>
+	<body>
+		<header>
+			<img src="./assets/brick-wall.png">
+			<div id="titulo-logo"><h4>The Wall - Cadastramento</h4></div>
+		</header>
+		<section class="container">
+			<div class="texto-opcoes">
+				<h3>Bem-vindo ao The Wall!<br><br>Escolha a opção que deseja realizar:</h3>
+			</div>
+			<div class="menu">
+				<button  class="botao" onclick="routes('produtos')">Cadastar Produtos</button>
+				<button  class="botao" onclick="routes('clientes')">Cadastar Clientes</button>
+				<button  class="botao" onclick="routes('listar-produtos')">Listar Produtos</button>
+				<button  class="botao" onclick="routes('listar-clientes')">Listar Clientes</button>
+			</div>
+		</section>
+		</main>
+		<footer>
+			<section class="rodape">
+				<div id="direitos"><h4>Todos os direitos reservados. &copy; 2021 Filipe Paz</h4></div>
+				<div id="icon-rodape">
+					<a href="https://www.linkedin.com/in/filipe-paz/" target="_blank"><img id="icon-linkedin" src="./assets/linkedin.png"></a>
+					<a href="https://github.com/fprp" target="_blank"><img id="icon-github" src="./assets/github.png"></a>
+					<a href="https://www.instagram.com/filipe_paz/" target="_blank"><img id="icon-instagram" src="./assets/instagram.png"></a>
+				</div>
+			</section>
+		</footer>
+		<script src="./js/script.js" type="text/javascript"></script>
+	</body>
+</html>
