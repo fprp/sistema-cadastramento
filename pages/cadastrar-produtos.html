@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="../css/styleProduto.css">
+        <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon"/>
+		<title>Sistema  de Cadastro - Cadatrar Produto</title>
+	</head>
+	<body>
+		<header>
+			<img src="../assets/brick-wall.png">
+			<div id="titulo-logo"><h4>The Wall - Cadastramento</h4></div>
+		</header>
+		<section class="container">
+            <div id="texto-titulo">
+                <h1>Cadastrar novo produto:</h1>
+            </div>
+            <div id="form">
+                <form>
+                    <label for="nome">Nome*:</label><br>
+                    <input class="form-opcao" type="text" name="nome" placeholder="Nome do Produto"/><br>
+                    <label for="descricao">Descrição*:</label><br>
+                    <input class="form-opcao" type="text" name="descricao" placeholder="Descrição do Produto"/><br>
+                    <label for="categoria">Categoria*:</label><br>
+                    <input class="form-opcao" type="text" name="categoria" placeholder="Categoria do Produto"/><br>
+                    <label for="preco">Preço*:</label><br>
+                    <input class="form-opcao" type="text" name="preco" placeholder="Preço do Produto"/><br>
+                    <label for="quantidade">Quantidade*:</label><br>
+                    <input class="form-opcao" type="text" name="quantidade" placeholder="Quantidade do Produto"/><br>
+                </form>
+            </div>
+            <div id="opcao-botao">
+                <button  class="botao" onclick="routes('listar-clientes')">Cadastrar</button>
+                <button  class="botao" onclick="routes('listar-clientes')">Voltar</button>
+            </div>
+		</section>
+		<footer>
+			<section class="rodape">
+				<div id="direitos"><h4>Todos os direitos reservados. &copy; 2021 Filipe Paz</h4></div>
+				<div id="icon-rodape">
+					<a href="https://www.linkedin.com/in/filipe-paz/" target="_blank"><img id="icon-linkedin" src="../assets/linkedin.png"></a>
+					<a href="https://github.com/fprp" target="_blank"><img id="icon-github" src="../assets/github.png"></a>
+					<a href="https://www.instagram.com/filipe_paz/" target="_blank"><img id="icon-instagram" src="../assets/instagram.png"></a>
+				</div>
+			</section>
+		</footer>
+		<script src="../js/script.js" type="text/javascript"></script>
+	</body>
+</html>
