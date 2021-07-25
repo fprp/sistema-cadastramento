@@ -53,7 +53,7 @@ function cadastrarProduto(){
 function cadastrarCliente(){
 	let nomeInput = document.getElementById("nome-completo");
     let idadeInput = document.getElementById("idade");
-	let ufCidadeInput = document.getElementById("uf-cidade");
+	let cidadeUFInput = document.getElementById("cidade-uf");
     let cepInput = document.getElementById("cep");
     let enderecoInput = document.getElementById("endereco");
 
@@ -68,18 +68,18 @@ function cadastrarCliente(){
     let dataAuxiliar = {
         Nome: nomeInput.value,
 		Idade: idadeInput.value,
-		UFcidade: ufCidadeInput.value,
+		cidadeUF: cidadeUFInput.value,
 		CEP: cepInput.value,
 		Endereço: enderecoInput.value
     }
 
-	let saberSeVazio = taVazio(nomeInput.value, idadeInput.value, ufCidadeInput.value, cepInput.value, enderecoInput.value);
+	let saberSeVazio = taVazio(nomeInput.value, idadeInput.value, cidadeUFInput.value, cepInput.value, enderecoInput.value);
 
 	if(saberSeVazio===true){
 		alert("Erro no cadastrado do cliente. Verifique as informações e tente novamente."); 
 		nomeInput.value="";
 		idadeInput.value="";
-		ufCidadeInput.value="";
+		cidadeUFInput.value="";
 		cepInput.value="";
 		enderecoInput.value="";
 	}else{
@@ -88,7 +88,7 @@ function cadastrarCliente(){
 		alert("Cliente cadastrado com sucesso!"); 
 		nomeInput.value="";
 		idadeInput.value="";
-		ufCidadeInput.value="";
+		cidadeUFInput.value="";
 		cepInput.value="";
 		enderecoInput.value="";
 	}
