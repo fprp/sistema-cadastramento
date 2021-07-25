@@ -22,19 +22,19 @@
             <div id="form">
                 <form>
                     <label for="nome">Nome completo*:</label><br>
-                    <input class="form-opcao" type="text" name="nome" placeholder="Digite seu nome"/><br>
+                    <input class="form-opcao" id="nome-completo" type="text" name="nome" placeholder="Digite seu nome"/><br>
                     <label for="idade">Idade*:</label><br>
-                    <input class="form-opcao" type="text" name="idade" placeholder="Digite sua idade"/><br>
+                    <input class="form-opcao" id="idade" type="text" name="idade" placeholder="Digite sua idade"/><br>
                     <label for="uf-cidade">UF/Cidade*:</label><br>
-                    <input class="form-opcao" type="text" name="UF-cidade" placeholder="Digite sua UF/Cidade"/><br>
+                    <input class="form-opcao" id="uf-cidade" type="text" name="UF-cidade" placeholder="Digite sua UF/Cidade"/><br>
                     <label for="cep">CEP*:</label><br>
-                    <input class="form-opcao" type="text" name="cep" placeholder="Digite seu CEP"/><br>
+                    <input class="form-opcao" id="cep" type="text" name="cep" placeholder="Digite seu CEP"/><br>
                     <label for="endereço">Endereço*:</label><br>
-                    <input class="form-opcao" type="text" name="endereço" placeholder="Digite sua rua e número"/><br>
+                    <input class="form-opcao" id="endereco" type="text" name="endereço" placeholder="Digite sua rua e número"/><br>
                 </form>
             </div>
             <div id="opcao-botao">
-                <button  class="botao" onclick="routes('listar-clientes')">Cadastrar</button>
+                <input  class="botao" id="botao-cadastrar" type="submit" value="Cadastrar" onclick="cadastrarCliente()"/>
                 <button  class="botao" onclick="routes('index')">Voltar</button>
             </div>
 		</section>
