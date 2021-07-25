@@ -1,3 +1,3 @@
 function routes(opcao){ 
-    console.log(opcao);
+	window.location.href=`../pages/${opcao}.html`
 }
